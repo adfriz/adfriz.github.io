@@ -43,6 +43,7 @@
         }
         </script> -->
         <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://cdn.jsdelivr.net/npm/simple-icons@15.5.0/index.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js" integrity="sha512-7x3zila4t2qNycrtZ31HO0NnJr8kg2VI67YLoRSyi9hGhRN66FHYWr7Axa9Y1J9tGYHVBPqIjSE1ogHrJTz51g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     </head>
 
@@ -88,7 +89,7 @@
 
                     <h6 class="font-medium text-gray-600 text-lg md:text-2xl uppercase mb-8">Adfriz</h6>
 
-                    <p class="font-normal text-gray-600 text-md md:text-xl mb-8">Software is just a tool 🔥</p>
+                    <p class="font-normal text-gray-600 text-md md:text-xl mb-8">UI/UX Designer | Web Designer | 3D Modeller | Product Visualitation | Logo Designer</p>
 
                     <button type="button" class="text-white bg-zinc-700 hover:bg-zinc-800 focus:ring-4 focus:outline-none focus:ring-zinc-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-zinc-600 dark:hover:bg-zinc-700 dark:focus:ring-zinc-800 transition ease-linear duration-100">
                     Github
@@ -102,7 +103,7 @@
 
         </section>
 
-        <section class="py-10 md:py-16">
+        <section class="py-5 md:py-12">
 
             <div class="container max-w-screen-xl mx-auto px-4">
 
@@ -141,7 +142,83 @@
 
         </section>
 
-        <footer class="py-10 md:py-16 mb-20 md:mb-40 lg::mb-52">
+
+        <!-- Section slider otomatis -->
+        <section class="py-10 md:py-16">
+            <div class="container max-w-screen-xl mx-auto px-4">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Kolom kiri - slider gambar -->
+                    <div class="bg-black/50 rounded-lg overflow-hidden">
+                        <div id="" class="relative" data-carousel="slide">
+                            <div class="relative h-48 md:h-64 overflow-hidden rounded-lg">
+                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                    <video
+                                        src="assets/image/miji_ads.mp4"
+                                        class="absolute block w-full h-full object-contain top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                                        controls
+                                        autoplay
+                                        muted
+                                        loop
+                                        playsinline
+                                        >
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kolom tengah - slider gambar -->
+                    <div class="bg-black/50 rounded-lg overflow-hidden">
+                        <div id="carousel-center" class="relative" data-carousel="slide">
+                            <div class="relative h-48 md:h-64 overflow-hidden rounded-lg">
+                                <div class="duration-700 ease-in-out" data-carousel-item>
+                                    <img src="assets/image/miji_landing.jpg" class="absolute block w-full h-full object-contain aspect-auto top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="Slide 1">
+                                </div>
+                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                    <img src="assets/image/miji_homepage.jpg" class="absolute block w-full h-full object-contain aspect-auto top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="Slide 2">
+                                </div>
+                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                    <img src="assets/image/miji_productdetail.jpg" class="absolute block w-full h-full object-contain aspect-auto top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="Slide 3">
+                                </div>
+                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                    <img src="assets/image/miji_reciept.jpg" class="absolute block w-full h-full object-contain aspect-auto top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="Slide 4">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kolom kanan - penjelasan teks -->
+                    <div class="bg-gray-50 p-6 rounded-lg flex flex-col justify-center">
+                        <h3 class="font-bold text-gray-800 text-xl mb-4">Milky Jeli (MIJI)</h3>
+                        <p class="font-normal text-gray-600 mb-6">
+                            App UI Design, Website Design, Product Design, Logo Design.
+                        </p>
+                        <div class="grid grid-cols-1 md:grid-cols-4 gap-2">
+                            
+                            
+                            <a href="https://milkyjeli.weebly.com/" class="text-white bg-zinc-700 hover:bg-zinc-800 focus:ring-4 focus:outline-none focus:ring-zinc-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center transition ease-linear duration-100 mt-auto inline-flex items-center gap-2 justify-center">
+                            Website
+                            <i data-feather="external-link" class="w-4 h-4"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/miji_drinks/" class="text-white bg-zinc-700 hover:bg-zinc-800 focus:ring-4 focus:outline-none focus:ring-zinc-300 font-medium rounded-lg text-sm px-5 py-3 text-center transition ease-linear duration-100 mt-auto inline-flex items-center gap-2 justify-center">
+                            <i data-feather="instagram" class="w-4 h-4"></i>
+                            </a>
+
+                            <a href="https://www.tiktok.com/@miji_drinks" class="text-white bg-zinc-700 hover:bg-zinc-800 focus:ring-4 focus:outline-none focus:ring-zinc-300 font-medium rounded-lg text-sm px-5 py-3 text-center transition ease-linear duration-100 mt-auto inline-flex items-center gap-2 justify-center">
+                                <img height="16" width="16" src="https://cdn.simpleicons.org/tiktok/white"/>
+                            </a>
+
+                            <a href="https://twitter.com/miji_drinks" class="text-white bg-zinc-700 hover:bg-zinc-800 focus:ring-4 focus:outline-none focus:ring-zinc-300 font-medium rounded-lg text-sm px-5 py-3 text-center transition ease-linear duration-100 mt-auto inline-flex items-center gap-2 justify-center">
+                                <img height="16" width="16" src="https://cdn.simpleicons.org/x/white"/> 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="py-5 md:py-12 mb-20 md:mb-40 lg::mb-52">
 
             <div class="container max-w-screen-xl mx-auto px-4">
 
