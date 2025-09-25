@@ -6,42 +6,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Adfriz</title>
-        <!-- <link rel="stylesheet" href="assets/css/tailwind.css"> -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
-        <!-- <script>
-            tailwind.config = 
-            {
-                darkMode: 'class',
-                        theme: 
-                        {
-                            screens: 
-                            {
-                                xs: '320px',
-                                sm: '480px',
-                                 md: '768px',
-                                lg: '976px',
-                                xl: '1440px',
-                            },
-                            extend: 
-                            {
-                                keyframes: 
-                                {
-                                    spinText: 
-                                    {
-                                        to: { transform: 'rotate(360deg)'}
-                                    }
-                                },
-                                animation: 
-                                {
-                                            spinText: 'spinText 30s linear infinite',
-                                }
-                            }
-                        }
-        }
-        </script> -->
         <script src="https://cdn.tailwindcss.com"></script>
         <script src="https://cdn.jsdelivr.net/npm/simple-icons@15.5.0/index.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js" integrity="sha512-7x3zila4t2qNycrtZ31HO0NnJr8kg2VI67YLoRSyi9hGhRN66FHYWr7Axa9Y1J9tGYHVBPqIjSE1ogHrJTz51g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -49,38 +17,9 @@
 
     <body class="bg-gray-100">
         
-        <section class="py-10 md:py-16">
+        <section class="py-10 md:py-4">
 
             <div class="container max-w-screen-xl mx-auto px-4">
-                <!-- <div class="flex h-full w-full items-center justify-center">
-                    <div class="grid h-full w-full gap-4 bg-gray-200 p-2 grid-cols-4 grid-rows-4 rounded-lg shadow-md">
-                    
-                    <div class="col-span-2 row-span-1 bg-pink-200 rounded-lg shadow-md flex items-center justify-center">
-                        <p>Salmon</p>
-                    </div>
-                    
-                    <div class="col-span-2 row-span-1 bg-lime-200 rounded-lg shadow-md flex items-center justify-center">
-                        <p>Broccoli</p>
-                    </div>
-                    
-                    <div class="col-span-1 row-span-4 bg-yellow-200 rounded-lg shadow-md flex items-center justify-center">
-                        <p>Tamago</p>
-                    </div>
-                    
-                    <div class="col-span-2 row-span-2 bg-tan-200 rounded-lg shadow-md flex items-center justify-center">
-                        <p>Pork</p>
-                    </div>
-                    
-                    <div class="col-span-1 row-span-2 bg-green-200 rounded-lg shadow-md flex items-center justify-center">
-                        <p>Edamame</p>
-                    </div>
-                    
-                    <div class="col-span-3 row-span-2 bg-red-200 rounded-lg shadow-md flex items-center justify-center">
-                        <p>Tomato</p>
-                    </div>
-                    
-                    </div>
-                </div> -->
 
                 <div class="text-center">
                     <div class="flex justify-center mb-16">
@@ -143,7 +82,7 @@
         </section>
 
 
-        <!-- Section slider otomatis -->
+        <!-- Section MIJI -->
         <section class="py-10 md:py-16">
             <div class="container max-w-screen-xl mx-auto px-4">
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -218,6 +157,98 @@
             </div>
         </section>
 
+        <!-- SECTION SIAR -->
+        <section class="py-10 md:py-16">
+            <div class="container max-w-screen-xl mx-auto px-4">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Kolom kiri - slider gambar -->
+                    <div class="bg-black/50 rounded-lg overflow-hidden">
+                        <div id="" class="relative" data-carousel="slide">
+                            <div class="relative h-48 md:h-64 overflow-hidden rounded-lg">
+                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                    <video
+                                        src="assets/image/siar.mp4"
+                                        class="absolute block w-full h-full object-contain top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                                        controls
+                                        autoplay
+                                        muted
+                                        loop
+                                        playsinline
+                                        >
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kolom tengah - slider gambar -->
+                    <div class="bg-black/50 rounded-lg overflow-hidden">
+                        <div id="carousel-center" class="relative" data-carousel="slide">
+                            <div class="relative h-48 md:h-64 overflow-hidden rounded-lg">
+                                <div class="duration-700 ease-in-out" data-carousel-item>
+                                    <img src="assets/image/homepage1.png" class="absolute block w-full h-full object-contain aspect-auto top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="Slide 1">
+                                </div>
+                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                    <img src="assets/image/homepage2.png" class="absolute block w-full h-full object-contain aspect-auto top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="Slide 2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kolom kanan - penjelasan teks -->
+                    <div class="bg-gray-50 p-6 rounded-lg flex flex-col justify-center">
+                        <h3 class="font-bold text-gray-800 text-xl mb-4">Sistem Informasi Aduan Rakyat (SIAR)</h3>
+                        <p class="font-normal text-gray-600 mb-6">
+                            Website Design, Logo Design.
+                        </p>
+                        <div class="grid grid-cols-1 md:grid-cols-4 gap-2">
+                            
+                            
+                            <a href="https://siar.fun/" class="text-white bg-zinc-700 hover:bg-zinc-800 focus:ring-4 focus:outline-none focus:ring-zinc-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center transition ease-linear duration-100 mt-auto inline-flex items-center gap-2 justify-center">
+                            Website
+                            <i data-feather="external-link" class="w-4 h-4"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION PHOTOGRAPHY -->
+        <section class="py-10 md:py-16">
+            <div class="container max-w-screen-xl mx-auto px-4">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+                    <!-- Kolom tengah - slider gambar -->
+                    <div class="bg-black/50 rounded-lg overflow-hidden">
+                        <div id="carousel-center" class="relative" data-carousel="slide">
+                            <div class="relative h-48 md:h-64 overflow-hidden rounded-lg">
+                                <div class="duration-700 ease-in-out" data-carousel-item>
+                                    <img src="assets/image/photo2.jpg" class="absolute block w-full h-full object-contain aspect-auto top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="Slide 1">
+                                </div>
+                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                    <img src="assets/image/photo3.jpg" class="absolute block w-full h-full object-contain aspect-auto top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="Slide 2">
+                                </div>
+                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                    <img src="assets/image/photo1.jpg" class="absolute block w-full h-full object-contain aspect-auto top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="Slide 3">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kolom kanan - penjelasan teks -->
+                    <div class="bg-gray-50 p-6 rounded-lg flex flex-col justify-center">
+                        <h3 class="font-bold text-gray-800 text-xl mb-4">Photography</h3>
+                        <p class="font-normal text-gray-600 mb-6">
+                            A Snap of everyday life.
+                        </p>
+                        <div class="grid grid-cols-1 md:grid-cols-4 gap-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <footer class="py-5 md:py-12 mb-20 md:mb-40 lg::mb-52">
 
             <div class="container max-w-screen-xl mx-auto px-4">
@@ -225,27 +256,11 @@
                 <div class="text-center">
 
                     <div class="flex items-center justify-center space-x-8">
-                        <a href="#" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                        <a href="https://x.com/adfriz980" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
                             <i data-feather="twitter" class="text-gray-500 hover:text-gray-800 transition ease-in-out duration-500"></i>
                         </a>
     
-                        <a href="#" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
-                            <i data-feather="dribbble" class="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"></i>
-                        </a>
-    
-                        <a href="#" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
-                            <i data-feather="facebook" class="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"></i>
-                        </a>
-    
-                        <a href="#" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
-                            <i data-feather="codepen" class="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"></i>
-                        </a>
-    
-                        <a href="#" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
-                            <i data-feather="at-sign" class="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"></i>
-                        </a>
-    
-                        <a href="#" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                        <a href="https://www.instagram.com/adfriz980/" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
                             <i data-feather="instagram" class="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"></i>
                         </a>
                     </div>
